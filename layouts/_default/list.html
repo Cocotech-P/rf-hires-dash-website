@@ -1,0 +1,18 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+
+{{ if .Content }}
+{{ .Content }}
+{{ else }}
+<p>Articles and updates about RF propagation, coverage planning, and RF HiRes Dash.</p>
+
+{{ range .Paginator.Pages }}
+<article>
+    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    <p><small>{{ .PublishDate.Format "January 2, 2006" }}</small></p>
+    <p>{{ .Summary }}</p>
+    <a href="{{ .RelPermalink }}">Read more →</a>
+</article>
+{{ end }}
+{{ end }}
+{{ end }}

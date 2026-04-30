@@ -1,0 +1,55 @@
+baseURL = "https://rf-hires-dash.com/"
+languageCode = "en-us"
+title = "RF HiRes Dash"
+
+
+# Permalinks
+[permalinks]
+  posts = "/:year/:month/:day/:slug/"
+  pages = "/:slug/"
+
+# Outputs
+[outputs]
+  home = ["HTML", "RSS"]
+
+# Menu
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Features"
+  url = "/features/"
+  weight = 2
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 3
+
+[[menu.main]]
+  name = "Docs"
+  url = "/docs/"
+  weight = 4
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 5
+
+[[menu.main]]
+  name = "Launch App"
+  url = "https://rf-hires-dash.onrender.com/coverage"
+  weight = 6
+
+# Params
+[params]
+  description = "Professional RF propagation coverage planning tool"
+  author = "Your Name"
+  email = "contact@rf-hires-dash.com"
+  github = "https://github.com/your-org/rf-hires-dash"
+  
+  # App URLs
+  appURL = "https://rf-hires-dash-prod.onrender.com"
+  docsURL = "https://docs.rf-hires-dash.com"
