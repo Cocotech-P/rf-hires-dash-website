@@ -12,6 +12,8 @@ title = "RF HiRes Dash"
 [outputs]
   home = ["HTML"]
   section = ["HTML"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]
 
 # Menu
 [[menu.main]]
