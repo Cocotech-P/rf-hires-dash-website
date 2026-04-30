@@ -10,7 +10,8 @@ title = "RF HiRes Dash"
 
 # Outputs
 [outputs]
-  home = ["HTML", "RSS"]
+  home = ["HTML"]
+  section = ["HTML"]
 
 # Menu
 [[menu.main]]
@@ -53,3 +54,4 @@ title = "RF HiRes Dash"
   # App URLs
   appURL = "https://rf-hires-dash-prod.onrender.com"
   docsURL = "https://docs.rf-hires-dash.com"
+
