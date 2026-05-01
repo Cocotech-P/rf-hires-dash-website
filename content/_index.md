@@ -1,100 +1,82 @@
 ---
-title: "RF HiRes Dash"
-description: "Professional RF Propagation Coverage Planning"
-draft: false
+title: "RF HiRes - Radio Frequency Coverage Analysis"
+description: "Professional RF coverage planning using ITU-R P.368-9 propagation models"
 ---
 
-# RF HiRes Dash
+## Welcome
 
-## Predict Radio Coverage in Minutes
+# RF Coverage Analysis Made Simple
 
-RF HiRes Dash is a web-based tool for RF engineers to analyze radio propagation, plan transmitter coverage, and export professional reports.
+Calculate real-world radio frequency coverage using ITU-R P.368-9 propagation models. Visualize signal strength, terrain effects, and coverage contours in seconds.
 
-Using the **ITU-R P.368-9** international propagation model with **SRTM elevation data**, RF HiRes Dash delivers accurate ground wave predictions for frequencies from 0.15 to 30 MHz (LF/MF/HF bands).
+[**Try Free - only email required →**](https://rf-hires-dash.onrender.com/coverage)
 
-### Get Started
+---
 
-- **No installation required** — runs entirely in your web browser
-- **Passwordless login** — magic link + OTP authentication
-- **Instant results** — coverage heatmap in seconds
-- **Multiple exports** — PDF, DOCX, and Google Earth (KMZ)
+## Featured Screenshot
 
-[**Launch App →**](https://rf-hires-dash.onrender.com/coverage)
+{{< figure src="/images/screenshots/Coverage MW 100 km.jpg" alt="RF coverage map showing signal strength visualization" caption="Interactive coverage map with real-time propagation modeling" >}}
+
+---
+
+## Why RF HiRes?
+
+Professional RF planning doesn't need to be complicated. Our platform combines industry-standard propagation models with an intuitive interface, giving you accurate coverage predictions in minutes.
 
 ---
 
 ## Key Features
 
-### 1. Interactive Coverage Planning
+### Interactive Coverage Maps
+Visualize signal strength across terrain with precise contour lines. Zoom, pan, and explore coverage in real-time with elevation data and topography integration.
 
-- Pan and zoom to any location on Earth
-- Place transmitter (TX) and receiver (RX) sites with a single click
-- Auto-save your session and settings
-- Restore your work on next login
+{{< figure src="/images/screenshots/Coverage MW Detail.jpg" alt="Detailed coverage map with contour lines and signal strength zones" caption="Detailed coverage visualization with signal strength contours" >}}
 
-### 2. Propagation Modeling
+### Terrain Analysis
+Understand how terrain affects propagation. Our platform integrates SRTM elevation data and advanced terrain modeling to show realistic coverage patterns.
 
-- **ITU-R P.368-9 ground wave model** — international standard for 0.15–30 MHz
-- **SRTM elevation integration** — terrain diffraction and obstacles accounted for
-- **OpenTopography API fallback** — coverage even in regions without SRTM
-- Adjustable parameters: frequency, ERP, antenna heights, ground conductivity
+{{< figure src="/images/screenshots/Point to Point Profile 1.jpg" alt="Terrain elevation profile showing signal path" caption="Elevation profile analysis for point-to-point links" >}}
 
-### 3. Coverage Heatmap
+### Export Reports
+Download your analysis in professional formats. Export as PDF, DOCX, or KMZ for use in GIS systems and presentations.
 
-- Color-coded visualization: green (excellent) → yellow (good) → orange (fair) → red (poor)
-- Grid-based computation: 0.5 km resolution, 25 km radius (configurable)
-- Diffraction and terrain effects included
-- Real-time updates as you adjust parameters
+{{< figure src="/images/screenshots/Point to Point Calculation Results.jpg" alt="Calculation results and propagation analysis data" caption="Detailed calculation results ready for export" >}}
 
-### 4. Professional Exports
+### Multi-frequency Support (200kHz to 2GHz)
+Plan across the full RF spectrum. From long-wave to microwave, our models handle all frequency bands with proper path loss and atmospheric absorption calculations.
 
-- **PDF Report** — Map + heatmap overlay, summary table
-- **DOCX Report** — Detailed analysis with RF parameters, recommendations
-- **KMZ (Google Earth)** — Import into ArcGIS, Google Earth Pro, or GIS software
-
-### 5. Session Persistence
-
-- Auto-save on TX/RX placement
-- Auto-save after each computation
-- Final state saved on logout
-- Restore map position and settings on re-login
+{{< figure src="/images/screenshots/Google Earth Overlay.jpg" alt="Coverage visualization overlaid on Google Earth" caption="Seamless integration with GIS and mapping tools" >}}
 
 ---
 
-## For RF Engineers
+## How It Works
 
-Whether you're planning a new broadcasting station, verifying amateur radio coverage, or analyzing maritime communication paths, RF HiRes Dash combines:
-
-- **Professional accuracy** — ITU-R P.368-9 international standard
-- **Real-world terrain** — SRTM elevation data (90 m resolution)
-- **Fast results** — propagation model runs in seconds
-- **Easy sharing** — export to PDF, DOCX, or Google Earth
-
-Perfect for:
-- Broadcasting station coverage planning
-- Amateur radio repeater site analysis
-- Maritime/aviation communication links
-- Emergency services frequency coordination
-- RF feasibility studies
+1. **Set up your transmitter** — Enter frequency, power, antenna type, and location
+2. **Configure the environment** — Select ground type, terrain model, and analysis parameters
+3. **Generate coverage** — Instant propagation calculation using ITU-R P.368-9
+4. **Export results** — Download maps, profiles, and reports in your preferred format
 
 ---
 
-## Pricing
+## Built for RF Professionals
 
-- **Free Tier** — Up to 10 RX sites per computation, community support
-- **Pro Tier** — Unlimited RX sites, priority support, advanced features (coming soon)
+Whether you're planning a broadcast network, point-to-point links, or mobile coverage, RF HiRes gives you the precision and speed you need.
+
+**Accuracy** — Industry-standard ITU-R P.368-9 propagation model  
+**Speed** — Coverage maps in seconds, not hours  
+**Flexibility** — Support for all RF bands and terrain types  
+**Integration** — Export to PDF, DOCX, KMZ, and more  
 
 ---
 
-## Documentation
+## Ready to Get Started?
 
-- **[User Manual](/docs/)** — Getting started, interface guide, RF parameters
-- **[Admin Manual](/docs/)** — Setup, deployment, maintenance
-- **[Technical Reference](/docs/)** — Physics, formulas, propagation model
-- **[Software Reference](/docs/)** — Architecture, callbacks, API
+No signup complexity. No credit card. Just your email and you're planning RF coverage.
+
+[**Try Free - only email required →**](https://rf-hires-dash.onrender.com/coverage)
 
 ---
 
 ## Questions?
 
-[**Contact us →**](/contact/)
+Check out our [documentation](/docs) or [contact us](/contact) for support.
