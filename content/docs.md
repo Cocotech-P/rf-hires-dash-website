@@ -25,23 +25,6 @@ Complete guides for users, administrators, and developers.
 
 ---
 
-## Administrator Manual
-
-**For system administrators setting up RF HiRes Dash.**
-
-- Prerequisites and accounts
-- Supabase setup (database + auth)
-- GitHub configuration
-- Render deployment
-- Post-deployment verification
-- Troubleshooting
-- Maintenance and monitoring
-- Scaling and performance
-
-[**Download Admin Manual (PDF)**](/docs/01_Admin_Manual.pdf)
-
----
-
 ## Technical Reference
 
 **Physics, formulas, and calculation methods.**
@@ -57,49 +40,5 @@ Complete guides for users, administrators, and developers.
 
 [**Download Technical Reference (PDF)**](/docs/03_Technical_Reference.pdf)
 
----
-
-## Software Reference
-
-**Architecture, code structure, and key callbacks.**
-
-- Architecture overview
-- Technology stack
-- File structure
-- Database schema
-- Authentication flow
-- Key callbacks (map, compute, export)
-- Core modules (propagation, elevation, export)
-- Deployment pipeline (GitHub → Render CI/CD)
-
-[**Download Software Reference (PDF)**](/docs/04_Software_Reference.pdf)
-
----
-
-## Quick Links
-
-- **GitHub Repository**: https://github.com/your-org/rf-hires-dash
-- **Live App**: https://rf-hires-dash-prod.onrender.com
-- **Issue Tracker**: https://github.com/your-org/rf-hires-dash/issues
-- **Discussions**: https://github.com/your-org/rf-hires-dash/discussions
-
----
-
-## API Documentation
-
-API access coming in v1.1. Check back soon or [**watch the repo**](https://github.com/your-org/rf-hires-dash) for updates.
-
----
-
-## Contributing
-
-RF HiRes Dash is open-source. Contributions welcome!
-
-- Fork the repo
-- Create a feature branch
-- Submit a pull request
-- See [CONTRIBUTING.md](https://github.com/your-org/rf-hires-dash/blob/main/CONTRIBUTING.md)
-
----
 
 [**Back to Home →**](/)

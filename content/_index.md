@@ -1,13 +1,29 @@
 ---
-title: "RF HiRes - Radio Frequency Coverage Analysis"
-description: "Professional RF coverage planning using ITU-R P.368-9 propagation models"
+title: "RF Propagation Tools - Radio Frequency Coverage Analysis"
+description: "Professional RF coverage planning using hybrid Fresnel-diffraction propagation models"
 ---
 
-## Welcome
+## Welcome to RF Propagation Tools
 
-# RF Coverage Analysis Made Simple
+### Professional RF Coverage Analysis Across 300 kHz to 2 GHz
 
-Calculate real-world radio frequency coverage using ITU-R P.368-9 propagation models. Visualize signal strength, terrain effects, and coverage contours in seconds.
+RF Propagation Tools delivers terrain-aware radio frequency coverage prediction using a hybrid Fresnel-diffraction propagation model optimized for real-world accuracy.
+
+**What makes it different:**
+
+For frequencies below 30 MHz, the platform uses industry-standard ITU-R P.368-9 ground-wave propagation tables, accounting for ground conductivity, bilateral reciprocity, and diffraction loss over terrain obstacles.
+
+Above 30 MHz, RF Propagation Tools abandons simple path-loss formulas and instead uses a sophisticated **terrain-explicit model** that combines:
+
+- **Fresnel-Kirchhoff diffraction** — Knife-edge diffraction (Deygout method) identifies dominant terrain obstacles and calculates realistic signal attenuation
+- **Curved-Earth geometry** — Effective Earth radius correction ensures accurate radio horizon calculations, especially critical for beyond-horizon paths
+- **Two-ray ground reflection** — Accounts for constructive and destructive interference between direct and ground-reflected rays in the VHF/UHF bands
+- **Horizon diffraction** — Earth-bulge attenuation is modeled explicitly for paths extending beyond the radio horizon
+- **VHF thickness penalty** — Frequency-dependent scaling of diffraction loss captures the increased sensitivity of shorter wavelengths to terrain obstruction
+
+The result is a model for VHF/UHF planning standard with explicit terrain modeling suitable for individual point-to-point links, rural coverage planning.
+
+**Real terrain. Real physics. Real results.**
 
 [**Try Free - only email required →**](https://rf-hires-dash.onrender.com/coverage)
 
@@ -16,12 +32,6 @@ Calculate real-world radio frequency coverage using ITU-R P.368-9 propagation mo
 ## Featured Screenshot
 
 {{< figure src="/images/screenshots/Coverage MW 100 km.jpg" alt="RF coverage map showing signal strength visualization" caption="Interactive coverage map with real-time propagation modeling" >}}
-
----
-
-## Why RF HiRes?
-
-Professional RF planning doesn't need to be complicated. Our platform combines industry-standard propagation models with an intuitive interface, giving you accurate coverage predictions in minutes.
 
 ---
 
@@ -42,8 +52,8 @@ Download your analysis in professional formats. Export as PDF, DOCX, or KMZ for 
 
 {{< figure src="/images/screenshots/Point to Point Calculation Results.jpg" alt="Calculation results and propagation analysis data" caption="Detailed calculation results ready for export" >}}
 
-### Multi-frequency Support (200kHz to 2GHz)
-Plan across the full RF spectrum. From long-wave to microwave, our models handle all frequency bands with proper path loss and atmospheric absorption calculations.
+### Multi-frequency Support (300kHz to 2GHz)
+Plan across the full RF spectrum. From long-wave to microwave, our models handle all frequency bands with proper propagation physics and terrain coupling.
 
 {{< figure src="/images/screenshots/Google Earth Overlay.jpg" alt="Coverage visualization overlaid on Google Earth" caption="Seamless integration with GIS and mapping tools" >}}
 
@@ -53,18 +63,18 @@ Plan across the full RF spectrum. From long-wave to microwave, our models handle
 
 1. **Set up your transmitter** — Enter frequency, power, antenna type, and location
 2. **Configure the environment** — Select ground type, terrain model, and analysis parameters
-3. **Generate coverage** — Instant propagation calculation using ITU-R P.368-9
+3. **Generate coverage** — Instant propagation calculation with terrain diffraction
 4. **Export results** — Download maps, profiles, and reports in your preferred format
 
 ---
 
 ## Built for RF Professionals
 
-Whether you're planning a broadcast network, point-to-point links, or mobile coverage, RF HiRes gives you the precision and speed you need.
+Whether you're planning a broadcast network, point-to-point links, or mobile coverage, RF Propagation Tools gives you the precision and speed you need.
 
-**Accuracy** — Industry-standard ITU-R P.368-9 propagation model  
+**Accuracy** — Hybrid Fresnel-diffraction model with explicit terrain coupling  
 **Speed** — Coverage maps in seconds, not hours  
-**Flexibility** — Support for all RF bands and terrain types  
+**Flexibility** — Support for all RF bands (200 kHz–2 GHz) and terrain types  
 **Integration** — Export to PDF, DOCX, KMZ, and more  
 
 ---

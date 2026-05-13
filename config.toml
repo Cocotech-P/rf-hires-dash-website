@@ -1,5 +1,6 @@
-baseURL = "https://rf-hires-dash.com/"
-languageCode = "en-us"
+baseURL = "https://rftransmission.net/"
+#languageCode = "en"
+locale = "en-US"
 title = "RF HiRes Dash"
 
 
@@ -21,15 +22,15 @@ title = "RF HiRes Dash"
   url = "/"
   weight = 1
 
-[[menu.main]]
-  name = "Features"
-  url = "/features/"
-  weight = 2
+# [[menu.main]]
+#   name = "Features"
+#   url = "/features/"
+#   weight = 2
 
-[[menu.main]]
-  name = "About"
-  url = "/about/"
-  weight = 3
+# [[menu.main]]
+#   name = "About"
+#   url = "/about/"
+#   weight = 3
 
 [[menu.main]]
   name = "Docs"
@@ -43,17 +44,16 @@ title = "RF HiRes Dash"
 
 [[menu.main]]
   name = "Launch App"
-  url = "https://rf-hires-dash.onrender.com/coverage"
+  url = "https://app.rftransmission.net/coverage"
   weight = 6
 
 # Params
 [params]
   description = "Professional RF propagation coverage planning tool"
-  author = "Your Name"
-  email = "contact@rf-hires-dash.com"
-  github = "https://github.com/your-org/rf-hires-dash"
+  author = "James Palmyre"
+  email = "rftransmission.net@gmail.com"
+  github = "https://github.com/Cocotech-P/rf_hires_dash"
   
   # App URLs
-  appURL = "https://rf-hires-dash-prod.onrender.com"
-  docsURL = "https://docs.rf-hires-dash.com"
-
+  appURL = "https://app.rftransmission.net/coverage"
+  docsURL = "https://app.rftransmission.net/docs"

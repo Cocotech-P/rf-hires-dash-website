@@ -1,6 +1,6 @@
 # Hugo
 public/
-resources/_gen/
+resources/
 .hugo_build.lock
 
 # IDE
@@ -17,3 +17,8 @@ Thumbs.db
 # Environment
 .env
 .env.local
+
+# Backup & temporary files
+*bak*.py
+*bak*
+*.zip

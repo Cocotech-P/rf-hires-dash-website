@@ -1,7 +1,7 @@
 ---
 title: "About"
 description: "About RF HiRes Dash"
-draft: false
+draft: true
 ---
 
 # About RF HiRes Dash

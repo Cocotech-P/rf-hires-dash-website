@@ -1,7 +1,7 @@
 ---
 title: "Features"
 description: "What RF HiRes Dash can do"
-draft: false
+draft: true
 ---
 
 # Features
@@ -109,14 +109,15 @@ Integrate RF HiRes Dash into your workflow.
 
 ## What Makes RF HiRes Dash Different?
 
-✅ **ITU-R P.368-9** — International standard, not approximation
-✅ **Terrain-aware** — SRTM elevation data, not flat Earth
-✅ **Fast** — Results in seconds, not hours
-✅ **Easy** — No software installation, runs in browser
-✅ **Professional** — Export reports for clients and stakeholders
-✅ **Open** — Standard file formats (PDF, DOCX, KMZ)
+✅ **ITU-R P.368-9** — International standard for LW/MW, not approximation\
+✅ **Terrain-aware** — SRTM elevation data, not flat Earth\
+✅ **Fast** — Results in minutes, not hours\
+✅ **Easy** — No software installation, runs in browser\
+✅ **Professional** — Export reports for clients and stakeholders\
+✅ **Open** — Standard file formats (PDF, DOCX, KMZ, CSV, XLSX)\
 ✅ **Accessible** — Free tier for learning and small projects
 
 ---
+
 
 [**Start Planning →**](https://rf-hires-dash-prod.onrender.com)
