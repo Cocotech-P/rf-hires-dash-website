@@ -1,7 +1,7 @@
 ---
 title: "Contact & FAQ's"
 description: "Get in touch with RF HiRes Dash"
-draft: true
+draft: false
 ---
 
 # Contact Us
