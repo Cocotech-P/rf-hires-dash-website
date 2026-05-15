@@ -25,7 +25,7 @@ The result is a model for VHF/UHF planning standard with explicit terrain modeli
 
 **Real terrain. Real physics. Real results.**
 
-[**Try Free - only email required →**](https://rf-hires-dash.onrender.com/coverage)
+[**Try Free - only email required →**](https://app.rftransmission.net/coverage)
 
 ---
 
@@ -83,7 +83,7 @@ Whether you're planning a broadcast network, point-to-point links, or mobile cov
 
 No signup complexity. No credit card. Just your email and you're planning RF coverage.
 
-[**Try Free - only email required →**](https://rf-hires-dash.onrender.com/coverage)
+[**Try Free - only email required →**](https://app.rftransmission.net/coverage)
 
 ---
 
