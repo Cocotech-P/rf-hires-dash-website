@@ -51,7 +51,7 @@ title = "RF HiRes Dash"
 [params]
   # SEO - General
   description = "Professional RF coverage planning for 300 kHz–2 GHz. ITU-R P.368-9 ground wave propagation + Fresnel-Kirchhoff diffraction. Free online tool."
-  keywords = "RF propagation, coverage planning, ITU-R P.368-9, Fresnel diffraction, radio frequency, propagation calculator, ground wave, VHF UHF, terrain diffraction, heatmap"
+  keywords = "RF propagation, coverage planning, ITU-R P.368-9, Fresnel diffraction, radio frequency, propagation calculator, ground wave, VHF UHF, terrain diffraction, heatmap, Seychelles, Radio, TV, Mobile,TRansmission, Coverage, Medium Frequency, rftransmission"
   author = "James Palmyre"
   email = "rftransmission.net@gmail.com"
   github = "https://github.com/Cocotech-P/rf_hires_dash"
