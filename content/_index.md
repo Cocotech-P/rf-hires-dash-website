@@ -27,6 +27,7 @@ The result is a model for VHF/UHF planning standard with explicit terrain modeli
 
 [**Try Free - only email required →**](https://app.rftransmission.net/coverage)
 
+[**Watch the 2 minute Demo Video →**](https://www.youtube.com/watch?v=jaUsye3-k-4)
 ---
 
 ## Featured Screenshot
